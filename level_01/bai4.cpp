@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#include <conio.h>
+
 main()
 {
 float a,b,c,C,p,S;
@@ -11,4 +13,7 @@ p=C/2;
 S=sqrt(p*(p-a)*(p-b)*(p-c));
 printf("chu vi tam giac=%.0f",C);
 printf("\nDIEN TICH tam giac =%.2f ",S);
+getch;
+return 20;
 }
+
